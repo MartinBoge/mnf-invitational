@@ -4,5 +4,4 @@
 
 1. `npm install`
 2. `npm run tailwind-serve`
-3. `live-server`
-
+3. `npx live-server`
