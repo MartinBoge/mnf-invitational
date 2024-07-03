@@ -1,0 +1,12 @@
+{
+    "devDependencies": {
+        "live-server": "^1.2.0",
+        "prettier": "^3.2.5",
+        "prettier-plugin-tailwindcss": "^0.5.14",
+        "tailwindcss": "^3.4.4"
+    },
+    "scripts": {
+        "tailwind-serve": "npx tailwindcss -i ./css/tailwind_input.css -o ./css/tailwind_output.css --watch",
+        "tailwind-build": "npx tailwindcss -o ./css/tailwind_output.css --minify"
+    }
+}
